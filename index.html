@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="trabalho-unifood">
+    <meta name="keywords" content="comida , pedidos, cantina, unimar">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login e Cadastro Unifood</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <div class="title-container">
+                    <span class="title">Login</span>
+                    <div class="image-container">
+                        <img src="logoazulunifood.png" alt="Imagem de fundo">
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="number" placeholder="RA" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Senha" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Lembrar me</label>
+                        </div>
+
+                        <a href="#" class="text">Esqueceu a senha?</a>
+                    </div>
+                    <div class="input-field button">
+                        <input type="button" value="Entrar">
+                    </div>
+                </form>
+                <div class="login-signup">
+                    <span class="text">Não tem conta?
+                        <a href="#" class="text signup-link">Cadastra-se agora!</a>
+                    </span>
+                </div>
+            </div>
+
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Cadastrar</span>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="number" placeholder="Digite seu RA" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Nome completo" required>
+                        <i class="uil uil-user-circle"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="E-mail" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Senha" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirme sua senha" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">Eu aceito os Termos e Condições</label>
+                        </div>
+                    </div>
+                    <div class="input-field button">
+                        <input type="button" value="Cadastrar">
+                    </div>
+                </form>
+                <div class="login-signup">
+                    <span class="text"> Não tem conta?
+                        <a href="#" class="text login-link">Cadastre-se agora!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
